@@ -21,7 +21,7 @@ We have a lot to get done, and we want you to feel empowered to solve issues how
 - Add an Input(s) and "search" button above the spice list. DONE
 - Filter the spice list to the matching spices upon search. DONE
 - CSS styling for home page to match the mock provided in /public/mock.png DONE
-- One unit test (sample provided). \*\*Look into what this is- Jest
+- One unit test (sample provided). DONE (but could add another one)
 - One new "feature" or "refactor" that shows what you consider to be your FE strengths (css, js, etc) \*\*Recipes that use those spices?
 - Bonus: responsive styling for the spice list page to enable mobile users to enjoy tomo-spice! DONE
 - Extra Bonus: Add a form to accept a "new blend", this should include a name, description, heat, color, price. As well as the option to select any number of spices to add to the blend.
