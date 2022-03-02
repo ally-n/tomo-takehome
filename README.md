@@ -21,8 +21,8 @@ We have a lot to get done, and we want you to feel empowered to solve issues how
 - Add an Input(s) and "search" button above the spice list. DONE
 - Filter the spice list to the matching spices upon search. DONE
 - CSS styling for home page to match the mock provided in /public/mock.png DONE
-- One unit test (sample provided). DONE (but could add another one)
-- One new "feature" or "refactor" that shows what you consider to be your FE strengths (css, js, etc) \*\*Recipes that use those spices?
+- One unit test (sample provided). DONE
+- One new "feature" or "refactor" that shows what you consider to be your FE strengths (css, js, etc) 1-EMOJIS FOR HEAT, 2-RECIPES WIP
 - Bonus: responsive styling for the spice list page to enable mobile users to enjoy tomo-spice! DONE
 - Extra Bonus: Add a form to accept a "new blend", this should include a name, description, heat, color, price. As well as the option to select any number of spices to add to the blend.
 
@@ -39,4 +39,5 @@ You can run prettier over your code at anytime by running the "npm run format" c
 ## How to submit?
 
 Any way that we can see your work is fine. Having a github repo you can share with us, zip folder, ETC. Again, the key here is to allow us to get a little insight into your development skills and allow us to have a follow up discussion.
+
 # tomo-takehome

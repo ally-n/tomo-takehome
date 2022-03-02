@@ -10,7 +10,7 @@ import blends from './blends/data';
 
 const server = new Server({
   routes() {
-    this.passthrough('https://tasty.p.rapidapi.com/recipes/list');
+    // this.passthrough('https://tasty.p.rapidapi.com/recipes/list'); <-- This was the recipe API attempt
     this.namespace = '/api';
 
     //spices

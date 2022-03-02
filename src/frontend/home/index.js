@@ -9,6 +9,10 @@ function Home() {
   const [search, setSearch] = useState('');
   const [filteredSpices, setFilteredSpices] = useState([]);
 
+  // I wanted to make it so the handleChange did the filter rather than the submit. I like it when apps show different data as
+  // I type instead of once I hit submit. This makes things a little easier to find in my mind,
+  // especially when I can't remember the exact name
+
   function handleChange(e) {
     setSearch(e.target.value);
     setFilteredSpices(
@@ -31,6 +35,10 @@ function Home() {
       setBlends(response.data);
     });
   }, []);
+
+  //Below, I added the form for search bar and submit button. Technically, we don't really need the submit button, but I wanted
+  //it to match the Mock design exactly. I had it map through the filteredSpices array instead of the original one so the onChange
+  //search data changed as they typed. I used conditional rendering to show the filtered array or the original spice array.
 
   return (
     <div className="App">

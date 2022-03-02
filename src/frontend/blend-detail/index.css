@@ -1,0 +1,8 @@
+.detail-container {
+  font-size: 30px;
+  margin: auto;
+  border: solid black 2px;
+  width: fit-content;
+  padding: 10px;
+  border-radius: 5px;
+}

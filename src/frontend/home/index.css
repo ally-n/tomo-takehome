@@ -1,5 +1,6 @@
 body {
   background-image: linear-gradient(to right, #ffc4a3, #ffb1bc);
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .App {
@@ -11,6 +12,7 @@ body {
   font-size: 40px;
   padding: 15px;
   margin: 15px;
+  text-transform: uppercase;
 }
 
 .spice-container {
@@ -108,6 +110,8 @@ form {
   width: fit-content;
   margin: auto;
 }
+
+/* Basic mobile responsive version- main change was changing the scroll heights and input sizes */
 
 @media (max-width: 1700px) and (min-width: 300px) {
   .spice-container {
