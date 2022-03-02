@@ -1,0 +1,131 @@
+body {
+  background-image: linear-gradient(to right, #ffc4a3, #ffb1bc);
+}
+
+.App {
+  text-align: center;
+  font-weight: bold;
+}
+
+.App h4 {
+  font-size: 40px;
+  padding: 15px;
+  margin: 15px;
+}
+
+.spice-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  height: 60vh;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.spice-box {
+  display: flex;
+  background-color: white;
+  border: 2px solid grey;
+  padding: 5px;
+  margin: 5px;
+  height: 50px;
+  align-items: center;
+}
+
+.spice-box:hover {
+  transform: scale(1.5);
+}
+
+.blend-container {
+  display: flex;
+  flex-wrap: wrap;
+  overflow: auto;
+  width: 90%;
+  text-align: center;
+  justify-content: center;
+  margin: auto;
+}
+
+.blend-box {
+  display: flex;
+  background-color: white;
+  border: 2px solid grey;
+  padding: 5px;
+  margin: 5px;
+  height: 50px;
+  align-items: center;
+}
+
+.blend-box:hover {
+  transform: scale(1.5);
+}
+
+/* unvisited link */
+a:link {
+  color: black;
+  text-decoration: none;
+}
+
+/* visited link */
+a:visited {
+  color: black;
+  text-decoration: none;
+}
+
+/* mouse over link */
+a:hover {
+  color: black;
+  text-decoration: none;
+}
+
+/* selected link */
+a:active {
+  color: black;
+  text-decoration: none;
+}
+
+#search {
+  background: transparent;
+  border: none;
+  border-right: solid 2px black;
+  height: 4vh;
+  width: 10vw;
+}
+
+#search-btn {
+  background: transparent;
+  height: 4vh;
+  border: none;
+  width: 3vw;
+}
+
+form {
+  border-radius: 5px;
+  border: solid 2px black;
+  border-radius: 4px;
+  width: fit-content;
+  margin: auto;
+}
+
+@media (max-width: 1700px) and (min-width: 300px) {
+  .spice-container {
+    height: 50vh;
+  }
+
+  #search {
+    background: transparent;
+    border: none;
+    border-right: solid 2px black;
+    height: auto;
+    width: auto;
+  }
+
+  #search-btn {
+    background: transparent;
+    height: auto;
+    border: none;
+    width: auto;
+  }
+}
